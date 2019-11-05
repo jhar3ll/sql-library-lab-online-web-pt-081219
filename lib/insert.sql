@@ -19,8 +19,8 @@ INSERT INTO books (id, title, year, series_id) VALUES
 (6, "Modern Warfare 3", 2012, 2)
 
 INSERT INTO characters (id, name, motto, species, author_id) VALUES 
-(1, "Claptrap", )
-
+(1, "Claptrap", "Let me teach you the ways of magic", "robot", 1)
+(2, "Handsome Jack", )
 
 
 (5, "Captain Price", "Just another day at the office.", "human", 2)
