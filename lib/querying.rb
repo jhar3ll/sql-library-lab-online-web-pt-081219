@@ -8,8 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "Write your SQL query here"
-end
+  "SELECT species, COUNT(*) FROM characters GROUP BY species ORDER BY COUNT(species) DESC"
 
 def select_name_and_series_subgenres_of_authors
   "Write your SQL query here"
