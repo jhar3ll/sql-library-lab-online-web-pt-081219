@@ -27,4 +27,4 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (5, "Captain Price", "Just another day at the office.", "hero", 2)
 (6, "Soap", "Break's over. Let's go", "hero", 2)
 (7, "Makarov", "Those who would trade their freedom for security deserve neither.", "villian", 2)
-(8, "Salvador", "", "Gunzerker", 2)
+(8, "Salvador", "KILLING SPREE BABY!", "Gunzerker", 2)
