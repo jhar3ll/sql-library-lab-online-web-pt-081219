@@ -21,8 +21,8 @@ INSERT INTO books (id, title, year, series_id) VALUES
 INSERT INTO characters (id, name, motto, species, author_id) VALUES 
 (1, "Claptrap", "Let me teach you the ways of magic", "robot", 1)
 (2, "Handsome Jack", "Hey, kiddo. Jack here - president of Hyperion", "siren" 1)
-(3, "Lilith", "")
-
+(3, "Lilith", "More loot? Don't mind if I do.", "siren", 1)
+(4, )
 (5, "Captain Price", "Just another day at the office.", "human", 2)
 (6, "Soap", "Break's over. Let's go", )
 
