@@ -3,28 +3,32 @@ INSERT INTO series (id, title, author_id, subgenre_id) VALUES
 (2, "Call of Duty",2, 2)
 
 INSERT INTO subgenres (id, name) VALUES 
-(1, "RPG")
+(1, "RPG"),
 (2, "FPS")
 
 INSERT INTO authors (id, name) VALUES
-(1, "2K Games")
+(1, "2K Games"),
 (2, "Activision")
 
 INSERT INTO books (id, title, year, series_id) VALUES
-(1, "Borderlands 1", 2009, 1)
-(2, "Borderlands 2", 2010, 1)
-(3, "Borderlands 3", 2019, 1)
-(4, "Modern Warfare", 2008, 2)
-(5, "Modern Warfare 2", 2010, 2)
+(1, "Borderlands 1", 2009, 1),
+(2, "Borderlands 2", 2010, 1),
+(3, "Borderlands 3", 2019, 1),
+(4, "Modern Warfare", 2008, 2),
+(5, "Modern Warfare 2", 2010, 2),
 (6, "Modern Warfare 3", 2012, 2)
 
 INSERT INTO characters (id, name, motto, species, author_id) VALUES 
-(1, "Claptrap", "Let me teach you the ways of magic", "robot", 1)
-(2, "Handsome Jack", "Hey, kiddo. Jack here - president of Hyperion", "siren" 1)
-(3, "Lilith", "More loot? Don't mind if I do.", "siren", 1)
-(4, "Mordecai", "Lady Luck, do be kind.", "hunter", 1)
+(1, "Claptrap", "Let me teach you the ways of magic", "robot", 1),
+(2, "Handsome Jack", "Hey, kiddo. Jack here - president of Hyperion", "siren" 1),
+(3, "Lilith", "More loot? Don't mind if I do.", "siren", 1),
+(4, "Mordecai", "Lady Luck, do be kind.", "hunter", 1),
 
-(5, "Captain Price", "Just another day at the office.", "hero", 2)
-(6, "Soap", "Break's over. Let's go", "hero", 2)
-(7, "Makarov", "Those who would trade their freedom for security deserve neither.", "villian", 2)
+(5, "Captain Price", "Just another day at the office.", "hero", 2),
+(6, "Soap", "Break's over. Let's go", "hero", 2),
+(7, "Makarov", "Those who would trade their freedom for security deserve neither.", "villian", 2),
 (8, "Salvador", "KILLING SPREE BABY!", "Gunzerker", 2)
+
+INSERT INTO character_books (id, book_id, character_id) VALUES 
+(1, 1, 1), (2, 2, 1), (3, 3, 3), (4, 3, 4),
+(5, 4, 5), (6, 4, 6), (7, 5, 7)
