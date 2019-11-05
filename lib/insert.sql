@@ -1,34 +1,16 @@
-INSERT INTO series (id, title, author_id, subgenre_id) VALUES 
-(1, "Borderlands", 1, 1),
-(2, "Call of Duty",2, 2)
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), 
+(2, "Second Series", 2, 2);
 
-INSERT INTO subgenres (id, name) VALUES 
-(1, "RPG"),
-(2, "FPS")
+INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
 
-INSERT INTO authors (id, name) VALUES
-(1, "2K Games"),
-(2, "Activision")
+INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
 
-INSERT INTO books (id, title, year, series_id) VALUES
-(1, "Borderlands 1", 2009, 1),
-(2, "Borderlands 2", 2010, 1),
-(3, "Borderlands 3", 2019, 1),
-(4, "Modern Warfare", 2008, 2),
-(5, "Modern Warfare 2", 2010, 2),
-(6, "Modern Warfare 3", 2012, 2)
+INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), (2, "A Clash of Kings", 1998, 1), (3, "A Storm of Swords", 2000, 1), (4, "First Book", 2002, 2), (5, "Second Book", 2003, 2), (6, "Third Book", 2005, 2);
 
-INSERT INTO characters (id, name, motto, species, author_id) VALUES 
-(1, "Claptrap", "Let me teach you the ways of magic", "robot", 1),
-(2, "Handsome Jack", "Hey, kiddo. Jack here - president of Hyperion", "siren" 1),
-(3, "Lilith", "More loot? Don't mind if I do.", "siren", 1),
-(4, "Mordecai", "Lady Luck, do be kind.", "hunter", 1),
+INSERT INTO characters (id, name, motto, species, author_id) VALUES (1, "Lady", "Woof Woof", "direwolf", 1), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 1), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1), (4, "Eddard Stark", "Winter is coming", "human", 1);
 
-(5, "Captain Price", "Just another day at the office.", "hero", 2),
-(6, "Soap", "Break's over. Let's go", "hero", 2),
-(7, "Makarov", "Those who would trade their freedom for security deserve neither.", "villian", 2),
-(8, "Yuri", "This wasn't war. It was madness.", "villian", 2)
+INSERT INTO characters (id, name, motto, species, author_id) VALUES (5, "Character One", "motto one", "cylon", 2), (6, "Character Two", "motto two", "human", 2), (7, "Character Three", "motto three", "cylon", 2), (8, "Character Four", "motto four", "cylon", 2);
 
-INSERT INTO character_books (id, book_id, character_id) VALUES 
-(1, 1, 1), (2, 2, 1), (3, 3, 3), (4, 3, 4),
-(5, 4, 5), (6, 4, 6), (7, 5, 7), (8, 6, 8)
+INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
+
+INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
