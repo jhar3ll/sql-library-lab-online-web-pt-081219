@@ -20,5 +20,5 @@ INSERT INTO books (id, title, year, series_id) VALUES
 
 INSERT INTO characters (id, name, motto, species, author_id) VALUES 
 (1, "Captain Price", "Just another day at the office."
-2, "Soap", "")
+(2, "Soap", "Break's over. Let's go", )
 
