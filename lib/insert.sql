@@ -27,8 +27,8 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 (5, "Captain Price", "Just another day at the office.", "hero", 2),
 (6, "Soap", "Break's over. Let's go", "hero", 2),
 (7, "Makarov", "Those who would trade their freedom for security deserve neither.", "villian", 2),
-(8, "Salvador", "KILLING SPREE BABY!", "Gunzerker", 2)
+(8, "Yuri", "This wasn't war. It was madness.", "villian", 2)
 
 INSERT INTO character_books (id, book_id, character_id) VALUES 
 (1, 1, 1), (2, 2, 1), (3, 3, 3), (4, 3, 4),
-(5, 4, 5), (6, 4, 6), (7, 5, 7)
+(5, 4, 5), (6, 4, 6), (7, 5, 7), (8, 6, 8)
