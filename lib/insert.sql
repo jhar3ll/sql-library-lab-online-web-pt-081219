@@ -11,8 +11,12 @@ INSERT INTO authors (id, name) VALUES
 (2, "Activision")
 
 INSERT INTO books (id, title, year, series_id) VALUES
-(1, "Borderlands 1", "2009", 1)
-(2, "Borderlands 2", "2010", 1)
-(3, "Borderlands 3", "2019", 1)
-(4, "Black Ops", "2010")
+(1, "Borderlands 1", 2009, 1)
+(2, "Borderlands 2", 2010, 1)
+(3, "Borderlands 3", 2019, 1)
+(4, "Modern Warfare", 2008, 2)
+(5, "Modern Warfare 2", 2010, 2)
+(6, "Modern Warfare 3", 2012, 2)
+
+INSERT INTO characters
 
